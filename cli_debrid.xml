@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name>cli_debrid</Name>
-  <Repository>godver3/cli_debrid:latest</Repository>
+  <Repository>godver3/cli_debrid:dev</Repository>
   <Branch>
-    <Tag>latest</Tag>
+    <Tag>main</Tag>
     <TagDescription>Grab the latest stable release</TagDescription>
   </Branch>
   <Branch>
