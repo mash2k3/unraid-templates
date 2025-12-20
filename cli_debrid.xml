@@ -24,7 +24,7 @@
   Discord https://discord.gg/4qEMz4ay </Overview>
   <Category>Downloaders: MediaApp:Video</Category>
   <WebUI>http://[IP]:[PORT:5000]</WebUI>
-  <TemplateURL>https://raw.githubusercontent.com/mash2k3/unraid-templates/refs/heads/master/cli_debrid.xml</TemplateURL>
+  <TemplateURL>https://raw.githubusercontent.com/mash2k3/unraid-templates/refs/heads/main/cli_debrid.xml</TemplateURL>
   <Icon>https://raw.githubusercontent.com/godver3/cli_debrid/dev/static/favicon-256x256-white.png</Icon>
   <ExtraParams>--interactive --tty</ExtraParams>
   <PostArgs/>
