@@ -20,7 +20,7 @@
   Discord https://discord.gg/4qEMz4ay </Overview>
   <Category>Downloaders: MediaApp:Video</Category>
   <WebUI>http://[IP]:[PORT:7777]</WebUI>
-  <TemplateURL>https://raw.githubusercontent.com/mash2k3/unraid-templates/refs/heads/master/strmr.xml</TemplateURL>
+  <TemplateURL>https://raw.githubusercontent.com/mash2k3/unraid-templates/refs/heads/main/strmr.xml</TemplateURL>
   <Icon>https://raw.githubusercontent.com/godver3/strmr/master/frontend/assets/ios_icons/icon-120.png</Icon>
   <ExtraParams/>
   <PostArgs/>
