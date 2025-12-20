@@ -19,13 +19,13 @@
   &#xD;
   Discord https://discord.gg/4qEMz4ay </Overview>
   <Category>Downloaders: MediaApp:Video</Category>
-  <WebUI>http://[IP]:[PORT:7777]</WebUI>
+  <WebUI>http://[IP]:[PORT:7777]/admin</WebUI>
   <TemplateURL>https://raw.githubusercontent.com/mash2k3/unraid-templates/refs/heads/main/strmr.xml</TemplateURL>
   <Icon>https://raw.githubusercontent.com/godver3/strmr/master/frontend/assets/ios_icons/icon-120.png</Icon>
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
-  <DateInstalled>1766203627</DateInstalled>
+  <DateInstalled/>
   <DonateText/>
   <DonateLink/>
   <Requires/>
