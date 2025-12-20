@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>strmr</Name>
+  <Repository>godver3/strmr:latest</Repository>
+  <Branch>
+      <Tag>latest</Tag>
+      <TagDescription>Grab the latest development build</TagDescription>
+  </Branch>
+  <Registry>https://hub.docker.com/r/godver3/strmr/</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <ReadMe>https://github.com/godver3/strmr/blob/master/README.md</ReadMe>
+  <Support>https://github.com/godver3/strmr/issues</Support>
+  <Project>https://github.com/godver3/strmr</Project>
+  <Discord>https://discord.gg/4qEMz4ay</Discord>
+  <Overview>A streaming media server with native mobile and TV apps.&#xD;
+  &#xD;
+  Discord https://discord.gg/4qEMz4ay </Overview>
+  <Category>Downloaders: MediaApp:Video</Category>
+  <WebUI>http://[IP]:[PORT:7777]</WebUI>
+  <TemplateURL>https://raw.githubusercontent.com/mash2k3/unraid-templates/refs/heads/master/strmr.xml</TemplateURL>
+  <Icon>https://raw.githubusercontent.com/godver3/strmr/master/frontend/assets/ios_icons/icon-120.png</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1766203627</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Requires/>
+  <Config Name="Cache" Target="/root/cache" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/strmr</Config>
+  <Config Name="Timezone" Target="TZ" Default="" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false">America/New_York</Config>
+  <Config Name="Webui" Target="7777" Default="" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false">7777</Config>
+</Container>
