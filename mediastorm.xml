@@ -21,7 +21,7 @@
   <Category>Downloaders: MediaApp:Video</Category>
   <WebUI>http://[IP]:[PORT:7777]/admin</WebUI>
   <TemplateURL>https://raw.githubusercontent.com/mash2k3/unraid-templates/refs/heads/main/mediastorm.xml</TemplateURL>
-  <Icon>https://raw.githubusercontent.com/godver3/mediastorm/master/frontend/assets/ios_icons/icon-120.png</Icon>
+  <Icon>https://raw.githubusercontent.com/godver3/mediastorm/master/mediastorm-square.png</Icon>
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
