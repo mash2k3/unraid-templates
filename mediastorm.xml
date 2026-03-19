@@ -17,12 +17,15 @@
   <Discord>https://discord.gg/4qEMz4ay</Discord>
   <Overview>A streaming media server with native mobile and TV apps.&#xD;
   &#xD;
-  Discord https://discord.gg/4qEMz4ay </Overview>
+  Discord https://discord.gg/4qEMz4ay
+  &#xD;
+  Requires mediastorm_postgres app/container from community apps store.
+  </Overview>
   <Category>Downloaders: MediaApp:Video</Category>
   <WebUI>http://[IP]:[PORT:7777]/admin</WebUI>
   <TemplateURL>https://raw.githubusercontent.com/mash2k3/unraid-templates/refs/heads/main/mediastorm.xml</TemplateURL>
   <Icon>https://raw.githubusercontent.com/godver3/mediastorm/master/mediastorm-square.png</Icon>
-  <ExtraParams/>
+  <ExtraParams>--add-host=host.docker.internal:host-gateway</ExtraParams>
   <PostArgs/>
   <CPUset/>
   <DateInstalled/>
@@ -32,4 +35,5 @@
   <Config Name="Cache" Target="/root/cache" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/mediastorm</Config>
   <Config Name="Timezone" Target="TZ" Default="" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false">America/New_York</Config>
   <Config Name="Webui" Target="7777" Default="" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false">7777</Config>
+  <Config Name="DATABASE_URL" Target="DATABASE_URL" Default="" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false">postgres://mediastorm:mediastorm@host.docker.internal:5432/mediastorm?sslmode=disable</Config>
 </Container>
