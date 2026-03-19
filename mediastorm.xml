@@ -19,7 +19,7 @@
   &#xD;
   Discord https://discord.gg/4qEMz4ay
   &#xD;
-  Requires mediastorm_postgres app/container from community apps store.
+  Required: Install mediastorm_postgres app/container from community apps store first.
   </Overview>
   <Category>Downloaders: MediaApp:Video</Category>
   <WebUI>http://[IP]:[PORT:7777]/admin</WebUI>
