@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>decypharr</Name>
+  <Repository>cy01/blackhole:latest</Repository>
+  <Registry>ghcr.io/sirrobot01/decypharr</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://github.com/sirrobot01/decypharr/issues</Support>
+  <Project>https://sirrobot01.github.io/decypharr/</Project>
+  <Overview>TLDR; Decypharr is a self-hosted, open-source download client that integrates with multiple Debrid services. It provides a user-friendly interface for managing files and supports popular media management applications like Sonarr and Radarr.</Overview>
+  <Category>Downloaders: MediaApp:Video</Category>
+  <WebUI>http://[IP]:[PORT:8282]/</WebUI>
+  <TemplateURL/>
+  <Icon>https://sirrobot01.github.io/decypharr/images/logo.png</Icon>
+  <ExtraParams>--device /dev/fuse:/dev/fuse:rwm  --cap-add SYS_ADMIN  --security-opt apparmor:unconfined </ExtraParams>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled/>
+  <DonateText>Buy me a coffee.</DonateText>
+  <DonateLink>https://buymeacoffee.com/sirrobot01</DonateLink>
+  <Requires/>
+  <Config Name="port" Target="8282" Default="" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false">8282</Config>
+  <Config Name="mount" Target="/mnt" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/rclone</Config>
+  <Config Name="config" Target="/app" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/decypharr</Config>
+</Container>
