@@ -2,6 +2,7 @@
 <Container version="2">
   <Name>decypharr</Name>
   <Repository>cy01/blackhole:latest</Repository>
+  <Branch/>
   <Registry>https://ghcr.io/sirrobot01/decypharr</Registry>
   <Network>bridge</Network>
   <MyIP/>
