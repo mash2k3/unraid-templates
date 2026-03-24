@@ -2,7 +2,7 @@
 <Container version="2">
   <Name>decypharr</Name>
   <Repository>cy01/blackhole:latest</Repository>
-  <Registry>ghcr.io/sirrobot01/decypharr</Registry>
+  <Registry>https://ghcr.io/sirrobot01/decypharr</Registry>
   <Network>bridge</Network>
   <MyIP/>
   <Shell>sh</Shell>
@@ -12,7 +12,7 @@
   <Overview>TLDR; Decypharr is a self-hosted, open-source download client that integrates with multiple Debrid services. It provides a user-friendly interface for managing files and supports popular media management applications like Sonarr and Radarr.</Overview>
   <Category>Downloaders: MediaApp:Video</Category>
   <WebUI>http://[IP]:[PORT:8282]/</WebUI>
-  <TemplateURL/>
+  <TemplateURL>https://raw.githubusercontent.com/mash2k3/unraid-templates/refs/heads/main/decypharr.xml</TemplateURL>
   <Icon>https://sirrobot01.github.io/decypharr/images/logo.png</Icon>
   <ExtraParams>--device /dev/fuse:/dev/fuse:rwm  --cap-add SYS_ADMIN  --security-opt apparmor:unconfined </ExtraParams>
   <PostArgs/>
