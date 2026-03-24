@@ -7,6 +7,7 @@
   <MyIP/>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
+  <ReadMe>https://github.com/sirrobot01/decypharr/blob/main/README.md</ReadMe>
   <Support>https://github.com/sirrobot01/decypharr/issues</Support>
   <Project>https://sirrobot01.github.io/decypharr/</Project>
   <Overview>TLDR; Decypharr is a self-hosted, open-source download client that integrates with multiple Debrid services. It provides a user-friendly interface for managing files and supports popular media management applications like Sonarr and Radarr.</Overview>
