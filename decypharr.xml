@@ -3,7 +3,7 @@
   <Name>decypharr</Name>
   <Repository>cy01/blackhole:latest</Repository>
   <Branch/>
-  <Registry>https://ghcr.io/sirrobot01/decypharr</Registry>
+  <Registry>https://hub.docker.com/r/cy01/blackhole/</Registry>
   <Network>bridge</Network>
   <MyIP/>
   <Shell>sh</Shell>
