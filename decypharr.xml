@@ -16,7 +16,7 @@
   <WebUI>http://[IP]:[PORT:8282]/</WebUI>
   <TemplateURL>https://raw.githubusercontent.com/mash2k3/unraid-templates/refs/heads/main/decypharr.xml</TemplateURL>
   <Icon>https://raw.githubusercontent.com/mash2k3/unraid-templates/main/icons/decypharr.png</Icon>
-  <ExtraParams>--device /dev/fuse:/dev/fuse:rwm --cap-add SYS_ADMIN --security-opt apparmor:unconfined</ExtraParams>
+  <ExtraParams>--device /dev/fuse:/dev/fuse:rwm --cap-add SYS_ADMIN</ExtraParams>
   <PostArgs/>
   <CPUset/>
   <DateInstalled/>
