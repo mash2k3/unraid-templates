@@ -11,7 +11,7 @@
   <ReadMe>https://github.com/sirrobot01/decypharr/blob/main/README.md</ReadMe>
   <Support>https://github.com/sirrobot01/decypharr/issues</Support>
   <Project>https://sirrobot01.github.io/decypharr/</Project>
-  <Overview>TLDR; Decypharr is a self-hosted, open-source download client that integrates with multiple Debrid services. It provides a user-friendly interface for managing files and supports popular media management applications like Sonarr and Radarr.</Overview>
+  <Overview>Decypharr is a self-hosted, open-source download client that integrates with multiple Debrid services. It provides a user-friendly interface for managing files and supports popular media management applications like Sonarr and Radarr.</Overview>
   <Category>Downloaders: MediaApp:Video</Category>
   <WebUI>http://[IP]:[PORT:8282]/</WebUI>
   <TemplateURL>https://raw.githubusercontent.com/mash2k3/unraid-templates/refs/heads/main/decypharr.xml</TemplateURL>
@@ -24,6 +24,6 @@
   <DonateLink>https://buymeacoffee.com/sirrobot01</DonateLink>
   <Requires/>
   <Config Name="port" Target="8282" Default="" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false">8282</Config>
-  <Config Name="mount" Target="/mnt" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/rclone</Config>
+  <Config Name="mount" Target="/mnt" Default="" Mode="rw,shared" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/rclone</Config>
   <Config Name="config" Target="/app" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/decypharr</Config>
 </Container>
