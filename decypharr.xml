@@ -15,8 +15,8 @@
   <Category>Downloaders: MediaApp:Video</Category>
   <WebUI>http://[IP]:[PORT:8282]/</WebUI>
   <TemplateURL>https://raw.githubusercontent.com/mash2k3/unraid-templates/refs/heads/main/decypharr.xml</TemplateURL>
-  <Icon>https://raw.githubusercontent.com/mash2k3/unraid-templates/main/icons/decypharr.png</Icon>
-  <ExtraParams>--device /dev/fuse:/dev/fuse:rwm --cap-add SYS_ADMIN</ExtraParams>
+  <Icon>https://sirrobot01.github.io/decypharr/images/logo.png</Icon>
+  <ExtraParams>--device /dev/fuse:/dev/fuse:rwm  --cap-add SYS_ADMIN  --security-opt apparmor:unconfined </ExtraParams>
   <PostArgs/>
   <CPUset/>
   <DateInstalled/>
@@ -26,4 +26,5 @@
   <Config Name="port" Target="8282" Default="" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false">8282</Config>
   <Config Name="mount" Target="/mnt" Default="" Mode="rw,shared" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/rclone</Config>
   <Config Name="config" Target="/app" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/decypharr</Config>
+  <Config Name="cache" Target="/cache" Default="" Mode="rw" Description="optional" Type="Path" Display="always" Required="false" Mask="false">/mnt/cache/decypharr</Config>
 </Container>
