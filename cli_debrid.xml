@@ -21,7 +21,7 @@
   <Discord>https://discord.gg/4qEMz4ay</Discord>
   <Overview>cli_debrid is a successor to, and pays homage to plex_debrid. cli_debrid is designed to automatically manage and upgrade your media collection, leveraging various sources and services to ensure you always have the best quality content available.&#xD;
   &#xD;
-  Discord https://discord.gg/4qEMz4ay </Overview>
+  Discord https://discord.gg/4qEMz4ay</Overview>
   <Category>Downloaders: MediaApp:Video</Category>
   <WebUI>http://[IP]:[PORT:5000]</WebUI>
   <TemplateURL>https://raw.githubusercontent.com/mash2k3/unraid-templates/refs/heads/main/cli_debrid.xml</TemplateURL>
