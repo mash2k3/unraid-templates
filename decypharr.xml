@@ -2,7 +2,14 @@
 <Container version="2">
   <Name>decypharr</Name>
   <Repository>cy01/blackhole:latest</Repository>
-  <Branch/>
+  <Branch>
+    <Tag>latest</Tag>
+    <TagDescription>Grab the latest stable release</TagDescription>
+  </Branch>
+  <Branch>
+      <Tag>beta</Tag>
+      <TagDescription>Grab the latest development build</TagDescription>
+  </Branch>
   <Registry>https://hub.docker.com/r/cy01/blackhole/</Registry>
   <Network>bridge</Network>
   <MyIP/>
